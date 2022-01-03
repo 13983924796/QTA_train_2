@@ -16,3 +16,4 @@ factorData = m.factorData
 
 b = Backtest(factorData=factorData)
 longInfo, shortInfo = b.get_tradeInfo('20210804')
+backtest_result=b.backtest()
